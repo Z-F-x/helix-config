@@ -1,40 +1,42 @@
-
-
-theme = "zFx"
-
-
-[editor]
-line-number = "relative"
-mouse = true
-color-modes = true
-#bufferline = "multiple"
-cursorline = true
-#cursorcolumn = true
-bufferline = "always"
-#indendent-heuristic = "tree-sitter"
-
-[editor.statusline]
-left = ["mode", "spinner"]
-center = ["file-name"]
-right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
-separator = "│"
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "SELECT"
-
-[editor.lsp]
-display-messages = true
-display-inlay-hints = true
-display-signature-help-docs = true
-
-[editor.cursor-shape]
-insert = "block"
-normal = "block"
-select = "block"
-
-[editor.file-picker]
-hidden = false
-
-#cargo xtask themelint dark_plus # replace onedark with <name>,
-
-#"ui.cursor" = { fg = "bg", bg = "fg" }
+ config.toml 
+ config.toml[+] 
+   11                        
+   10                        
+    9  theme = "zFx"         
+    8                        
+    7                        
+    6  [editor]              
+    5  line-number = "relative" 
+    4  mouse = true          
+    3  color-modes = true    
+    2  #bufferline = "multiple" 
+    1  cursorline = true     
+   12  # cursorcolumn = true 
+    1  bufferline = "always" 
+    2  #indendent-heuristic = "tree-sitter" 
+    3                        
+    4  [editor.statusline] 
+    5  left = ["mode", "spinner"] 
+    6  center = ["file-name"] 
+    7  right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]       
+    8  separator = "│" 
+    9  mode.normal = "NORMAL" 
+   10  mode.insert = "INSERT" 
+   11  mode.select = "SELECT" 
+   12                 
+   13  [editor.lsp]   
+   14  display-messages = true 
+   15  display-inlay-hints = true 
+   16  display-signature-help-docs = true 
+   17                 
+   18  [editor.cursor-shape] 
+   19  insert = "block" 
+   20  normal = "block" 
+   21  select = "block" 
+   22                 
+   23  [editor.file-picker] 
+   24  hidden = false 
+   25                 
+   26  #cargo xtask themelint dark_plus # replace onedark with <name>, 
+   27                 
+   28  #"ui.cursor" = { fg = "bg", bg = "fg" } 
