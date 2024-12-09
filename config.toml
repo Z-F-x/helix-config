@@ -1,7 +1,4 @@
- config.toml 
- config.toml[+] 
-                           
-                           
+ 
       theme = "zFx"         
                             
                             
